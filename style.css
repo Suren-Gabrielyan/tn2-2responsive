@@ -1,0 +1,473 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+html, body {
+	height:100%;
+}
+
+.nav{
+	background-color: #2A2A2A;
+}
+
+.container{
+	max-width: 100%;
+	width: 1024px ;
+	margin: 0 auto;
+}
+
+.parent-nav{
+	display: flex;
+}
+
+.logo>img{
+	width: 150px;
+	height: 90px;
+	border-radius: 5px;
+}
+
+.menu{
+	width: 100%;
+	margin-top: 30px;
+}
+.menu ul {
+	list-style-type:none;
+	display:flex;
+	background-color: #A22B13;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 1px solid;
+  	box-shadow: 5px 3px 10px 2px #000201;
+}
+
+.menu ul li a {
+	color:#E6A41A;
+	text-decoration: none;
+	padding:5px 15px;
+	display:block;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-bottom: 5px;
+
+}
+
+
+.menu ul li a:hover {
+	background-color:rgba(63,2,40,0.5);
+	color:#ffffff;
+} 
+
+.menu ul li span a{
+	color: #ffffff;
+	display: block;
+}
+
+.header{
+	background-color: #2A2A2A;
+	padding: 20px;
+	border-bottom: 1px solid #040404;
+}
+
+.parent-header{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lorem{
+	width: 50%;
+	height: 280px;
+}
+
+.lorem>h2{
+	color: #A52812;
+	margin-top: 20px;
+	font-size: 28px;
+}
+
+.lorem>p{
+	color: #8B8678;
+	line-height: 30px;
+	margin-top: 15px;
+}
+
+.lorem>p>a{
+	color: #A22915;
+}
+
+.lorem>button{
+	width: 120px;
+	height: 30px;
+	background-color: #1D1D1D;
+	color: #82714A;
+	border-radius: 10px;
+	border: 1px solid #090909;
+	margin-top: 20px;
+}
+
+.lorem>button:hover{
+	background-color: #9C2D13;
+	color: #ffffff;
+}
+
+
+.lorem-img{
+	width: 50%;
+}
+
+.lorem-img>img{
+	border: 10px solid #555241;
+	width: 513px;
+	height: 210px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+.bg-content{
+	background-color: #202020;
+	max-width: 100%;
+}
+
+.content{
+	padding: 20px;
+	position: relative;
+	top:-45px;
+}
+
+.parent-content{
+	display: flex;
+	flex-direction: column;
+	border: 8px solid #534F43;
+	border-radius: 5px;
+	background-color: #B88B4A;
+	height: 750px;
+}
+.post-cont{
+	display: flex;
+}
+
+.post{
+	width:33%; 
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+}
+
+.post>h2{
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+.post2{
+	display: flex;
+}
+
+.post2>img{
+	width: 80px;
+	height: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+.post2>p{
+	margin-top: 15px;
+	color: #1B1B1B;
+	line-height: 25px;
+}
+
+.post>button{
+	width: 90px;
+	height: 32px;
+	border-radius: 5px;
+	background-color: #1B1B1B;
+	color: #816847;
+	border: none;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.post>button:hover{
+	background-color: #9C2D13;
+	color: #ffffff;
+}
+
+.post3{
+	width:33%; 
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+}
+
+.post3>h2{
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+.post3>button{
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #1B1B1B;
+	color: #816847;
+	border: none;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.post3>button:hover{
+	background-color: #9C2D13;
+	color: #ffffff;
+}
+.welcome>h1{
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.post-cont2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post4{
+	width: 38%;
+	display: flex;
+	flex-direction: column;
+}
+.post4>img{
+	width: 330px;
+	height: 180px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid #555241;
+	padding: 5px;
+}
+
+.post5{
+	width: 58%;
+}
+
+.post5>span{
+	color: #ffffff;
+	margin-top: 15px;
+	display: block;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.post5>p{
+	color: #1B1B1B;
+	margin-top: 10px;
+	display: block;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.post5>p>a{
+	 color: #A22915;
+}
+
+.footer{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.footer>p{
+	color: #ffffff;
+}
+
+.footer>p>a{
+	color: #BF9352;
+}
+
+
+@media(min-width: 320px) and (max-width: 480px){
+	
+	.logo>img{
+		display: none;
+	}
+
+	.menu {
+		margin-top: 0;
+	}
+
+	.menu ul{
+		display:flex;
+		flex-direction: column;
+		border-bottom-right-radius: 0;
+    	border-top-right-radius: 0;
+    	border: 0;
+    	text-align: center;
+	}
+
+	.menu ul li a{
+		margin-left: 0;
+		font-size: 10px;
+		display: inline-block;
+		padding: 0;
+		margin-top: 5px;
+	}
+
+	.parent-header{
+		flex-direction: column;
+	}
+
+	.lorem {
+		height: auto;
+		width: 100%;
+	}
+
+	.header{
+		padding: 5px;
+	}
+
+	.lorem>h2{
+		margin-top: 10px;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.lorem>p{
+		margin-top: 5px;
+		font-size: 11px;
+		text-align: center;
+		line-height: 15px;
+	}
+
+	.lorem>button {
+		width: 90px;
+		height: 25px;
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.lorem-img{
+		width: 100%;
+	}
+
+	.lorem-img>img{
+		width: 200px;
+		height: 100px;
+		display: block;
+		margin: 10px auto;
+		border: 2px solid #555241;
+	}
+
+	.content {
+		position: relative:none;
+		top: 0;
+		padding: 10px;
+	}
+
+	.parent-content{
+		height: auto;
+		border: 2px solid #534F43;
+		display: flex: none;
+		flex-direction: column: none;
+	}
+
+	.post-cont {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.post,.post3{
+		width: 100%;
+		height: auto;
+	}
+
+	.post2,.post3 {
+		padding: 5px;
+	}
+
+	.post>h2{
+		margin-left: 0;
+		text-align: center;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+	.post2>img,.post3>img {
+		width: 24px;
+		height: 24px;
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.post2>p,.post3>p{
+		font-size: 9px;
+		margin-top: 0;
+		line-height: 15px;
+	}
+
+	.post>button,.post3>button {
+		display: block;
+		margin: 5px auto;
+		width: 80px;
+		height: 25px;
+		font-size: 9px;
+	}
+
+	.post3>h2{
+		margin-left: 0;
+		text-align: center;
+		font-size: 14px;
+		margin-top: 5px;
+	}
+
+	.welcome>h1{
+		font-size: 14px;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.post-cont2{
+		flex-direction: column;
+	}
+
+	.post4,.post5 {
+		width: 100%;
+	}
+
+	.post4>img{
+		width: 200px;
+		height: 100px;
+		display: block;
+		margin: 5px auto;
+		border-radius: 10px;
+	}
+
+	.post5>span{
+		font-size: 9px;
+		line-height: 15px;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.post5>p{
+		font-size: 8px;
+		line-height: 15px;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	.footer{
+		margin-top: 10px;
+	}
+
+	.footer>p{
+		font-size: 7px;
+	}
+}
